@@ -4,45 +4,42 @@
     <meta charset="utf-8">
     <title>PO&A - Data</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
-<body>
+<body class="bg-dark">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../web-design-challenge/index.html">Superstore</a>
+        <a class="navbar-brand" href="../index.html">Superstore</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../web-design-challenge/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reports</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../web-design-challenge/reports/annual.html">Annual Profits</a>
-                        <a class="dropdown-item" href="../web-design-challenge/reports/category.html">Category</a>
-                        <a class="dropdown-item" href="../web-design-challenge/reports/region.html">Region</a>
-                        <a class="dropdown-item" href="../web-design-challenge/reports/segment.html">Segment</a>
+                        <a class="dropdown-item" href="../reports/annual.html">Annual Profits</a>
+                        <a class="dropdown-item" href="../reports/category.html">Category</a>
+                        <a class="dropdown-item" href="../reports/region.html">Region</a>
+                        <a class="dropdown-item" href="../reports/segment.html">Segment</a>
                     </div>
+                </li>
+                <li class="nav-item inactive">
+                  <a class="nav-link" href="../reports/comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="../reports/data.html">Data<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Profit Analysis</h1>
-            <p class="lead">A simple view of Superstore's profit</p>
-            <hr class="my-4">
-            <p>This website contains product orders in different regions, segments, and categories within the USA between 2014 and 2017. It contains profit, discounts, product names, and other related information.</p>
-            <p>Let's take a macro look at profit using Tableau's Superstore dataset!</p>
-        </div>
+      <p> </p>
     </div>
     <div class="container content bg-white">
-        <table class="table table-hover table-sm" cellspacing="0" width="100%">
-            <thead>
-                <tr style="text-align: right;">
+        <table class="table table-hover table-sm" cellspacing="0" width="100%" style="text-align: center;">
+            <thead style="text-align: center;">
+                <tr style="text-align: center;">
                   <th></th>
                   <th>Order ID</th>
                   <th>Order Year</th>
