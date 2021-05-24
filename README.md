@@ -1,5 +1,5 @@
 # web-design-challenge
-##<a href="https://gldn-god.github.io/web-design-challenge/">View GitHub Pages Deployment</a></h1>
+## [View GitHub Pages Deployment](https://gldn-god.github.io/web-design-challenge/)
 <!-- README -->
   <h3 align="center">web-design-challenge</h3>
   <p align="center"> 
